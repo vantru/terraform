@@ -12,7 +12,7 @@ variable "environment_name" {
 }
 
 #Bussiness unit or department (used in tags and naming)
-variable "Bussiness_devision" {
+variable "bussiness_devision" {
   default = "retail"
   type = string
   description = "Bussiness deviation in the large organization this infrastructure belongs to"
@@ -22,7 +22,7 @@ variable "Bussiness_devision" {
 #EKS Cluster Configuration
 #--------------------------
 
-variable "Cluster_name" {
+variable "cluster_name" {
   default = "eksdemo"
   type = string
   description = "The name of Eks cluster. Also used as a prefix in names of related resources."
